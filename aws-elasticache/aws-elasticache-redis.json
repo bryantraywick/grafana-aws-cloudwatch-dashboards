@@ -616,7 +616,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "CurrConnections_Average",
+          "alias": "CurrConnections",
           "yaxis": 2
         }
       ],
@@ -768,7 +768,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "CurrItems_Average",
+          "alias": "CurrItems",
           "yaxis": 2
         }
       ],
@@ -921,7 +921,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "ReplicationBytes_Average",
+          "alias": "ReplicationBytes",
           "yaxis": 2
         }
       ],
@@ -1073,7 +1073,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "ReplicationLag_Average",
+          "alias": "ReplicationLag",
           "yaxis": 2
         }
       ],
@@ -1460,7 +1460,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "NetworkBytesIn_Average",
+          "alias": "NetworkBytesIn",
           "yaxis": 2
         }
       ],
@@ -1615,7 +1615,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "FreeableMemory_Average",
+          "alias": "FreeableMemory",
           "yaxis": 2
         }
       ],

@@ -73,23 +73,23 @@
           "renderer": "flot",
           "seriesOverrides": [
             {
-              "alias": "Latency_Average",
+              "alias": "Latency",
               "yaxis": 2
             },
             {
-              "alias": "TargetResponseTime_Average",
+              "alias": "TargetResponseTime",
               "yaxis": 2
             },
             {
-              "alias": "ClientConnections_Sum",
+              "alias": "ClientConnections",
               "yaxis": 2
             },
             {
-              "alias": "Delivery_Average",
+              "alias": "Delivery",
               "yaxis": 1
             },
             {
-              "alias": "Send_Average",
+              "alias": "Send",
               "yaxis": 2
             }
           ],
@@ -235,27 +235,27 @@
           "renderer": "flot",
           "seriesOverrides": [
             {
-              "alias": "Latency_Average",
+              "alias": "Latency",
               "yaxis": 2
             },
             {
-              "alias": "TargetResponseTime_Average",
+              "alias": "TargetResponseTime",
               "yaxis": 2
             },
             {
-              "alias": "ClientConnections_Sum",
+              "alias": "ClientConnections",
               "yaxis": 2
             },
             {
-              "alias": "Delivery_Average",
+              "alias": "Delivery",
               "yaxis": 1
             },
             {
-              "alias": "Send_Average",
+              "alias": "Send",
               "yaxis": 2
             },
             {
-              "alias": "Bounce_Average",
+              "alias": "Bounce",
               "yaxis": 2
             }
           ],
@@ -401,23 +401,23 @@
           "renderer": "flot",
           "seriesOverrides": [
             {
-              "alias": "Latency_Average",
+              "alias": "Latency",
               "yaxis": 2
             },
             {
-              "alias": "TargetResponseTime_Average",
+              "alias": "TargetResponseTime",
               "yaxis": 2
             },
             {
-              "alias": "ClientConnections_Sum",
+              "alias": "ClientConnections",
               "yaxis": 2
             },
             {
-              "alias": "Delivery_Average",
+              "alias": "Delivery",
               "yaxis": 1
             },
             {
-              "alias": "Send_Average",
+              "alias": "Send",
               "yaxis": 2
             }
           ],

@@ -92,11 +92,11 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         },
         {
-          "alias": "FailedSQLServerAgentJobsCount_Average",
+          "alias": "FailedSQLServerAgentJobsCount",
           "yaxis": 2
         }
       ],
@@ -260,7 +260,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -424,7 +424,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -582,11 +582,11 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         },
         {
-          "alias": "BurstBalance_Average",
+          "alias": "BurstBalance",
           "yaxis": 2
         }
       ],
@@ -784,7 +784,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -942,7 +942,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -1100,7 +1100,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -1258,7 +1258,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -1416,7 +1416,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime_Average",
+          "alias": "VolumeIdleTime",
           "yaxis": 2
         }
       ],
@@ -1574,7 +1574,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "ReplicaLag_Average",
+          "alias": "ReplicaLag",
           "yaxis": 2
         }
       ],
@@ -1738,7 +1738,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "ReplicaLag_Average",
+          "alias": "ReplicaLag",
           "yaxis": 2
         }
       ],
