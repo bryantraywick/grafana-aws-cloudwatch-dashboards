@@ -92,11 +92,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        },
-        {
-          "alias": "FailedSQLServerAgentJobsCount",
+          "alias": "FailedSQLServerAgentJobsCount_Average",
           "yaxis": 2
         }
       ],
@@ -258,12 +254,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -422,12 +413,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -582,11 +568,7 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        },
-        {
-          "alias": "BurstBalance",
+          "alias": "BurstBalance_Average",
           "yaxis": 2
         }
       ],
@@ -615,7 +597,7 @@
             "filter": ""
           },
           "matchExact": true,
-          "metricName": "ReadIOPS",
+          "metricName": "VolumeReadIOPS",
           "mode": 0,
           "namespace": "AWS/RDS",
           "options": {
@@ -649,7 +631,7 @@
             "filter": ""
           },
           "matchExact": true,
-          "metricName": "WriteIOPS",
+          "metricName": "VolumeWriteIOPS",
           "mode": 0,
           "namespace": "AWS/RDS",
           "options": {
@@ -683,7 +665,7 @@
             "filter": ""
           },
           "matchExact": true,
-          "metricName": "BurstBalance",
+          "metricName": "EBSIOBalance%",
           "mode": 0,
           "namespace": "AWS/RDS",
           "options": {
@@ -701,7 +683,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "ReadIOPS/WriteIOPS/BurstBalance",
+      "title": "ReadIOPS/WriteIOPS/EBSIOBalance%",
       "tooltip": {
         "msResolution": false,
         "shared": true,
@@ -782,12 +764,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -940,12 +917,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -1098,12 +1070,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -1256,12 +1223,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -1414,12 +1376,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "VolumeIdleTime",
-          "yaxis": 2
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -1672,7 +1629,7 @@
       },
       "yaxes": [
         {
-          "format": "decmbytes",
+          "format": "bytes",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -1767,7 +1724,7 @@
             "filter": ""
           },
           "matchExact": true,
-          "metricName": "OldestReplicationSlotLag",
+          "metricName": "ReplicationSlotDiskUsage",
           "mode": 0,
           "namespace": "AWS/RDS",
           "options": {
@@ -1801,7 +1758,7 @@
             "filter": ""
           },
           "matchExact": true,
-          "metricName": "ReplicaLag",
+          "metricName": "TransactionLogsDiskUsage",
           "mode": 0,
           "namespace": "AWS/RDS",
           "options": {
@@ -1836,7 +1793,7 @@
       },
       "yaxes": [
         {
-          "format": "decmbytes",
+          "format": "bytes",
           "label": null,
           "logBase": 1,
           "max": null,
